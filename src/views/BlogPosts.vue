@@ -1,28 +1,13 @@
 <template>
     <div class="wrapper">
         <div class="page-header page-header-small header-filter">
-            <div
-                    class="page-header-image"
-                    style="background-image: url('img/pages/nicolas-prieto.jpg');"
-            ></div>
+            <div class="page-header-image" style="background-image: url('img/pages/nicolas-prieto.jpg');"></div>
             <div class="content-center">
                 <div class="row">
                     <div class="col-md-6 mx-auto text-center">
                         <h1 class="title text-white">
-                            A Place for Entrepreneurs to Share and Discover New Stories
+                            技术专栏
                         </h1>
-                        <base-button
-                                type="warning"
-                                icon="fa fa-twitter"
-                                rounded
-                                icon-only
-                        ></base-button>
-                        <base-button
-                                type="warning"
-                                icon="fa fa-instagram"
-                                rounded
-                                icon-only
-                        ></base-button>
                     </div>
                 </div>
             </div>
@@ -36,14 +21,11 @@
                                 <img class="img rounded mt-n7" src="img/ill/p7.svg"/>
                             </template>
                             <template slot="body">
-                                <h4 class="display-4 text-white">Bussiness</h4>
+                                <h4 class="display-4 text-white">七月号</h4>
                                 <p class="lead text-white mt-0">
-                                    Society has put up so many boundaries and limitations on
-                                    what’s right and wrong that it’s almost impossible...
+                                    七月文章...
                                 </p>
-                                <a href="javascript:;" class="btn btn-link text-white px-0"
-                                >Read more</a
-                                >
+                                <a href="javascript:;" class="btn btn-link text-white px-0">Read more</a>
                             </template>
                         </card>
                     </div>
@@ -53,14 +35,11 @@
                                 <img class="img rounded mt-n7" src="img/ill/p22.png"/>
                             </template>
                             <template slot="body">
-                                <h4 class="display-4 text-white">Premium</h4>
+                                <h4 class="display-4 text-white">八月号</h4>
                                 <p class="lead text-white mt-0">
-                                    Colors are good, before somebody tells you you shouldn’t like
-                                    pink because that’s for girls.
+                                    八月文章
                                 </p>
-                                <a href="javascript:;" class="btn btn-link text-white px-0"
-                                >Read more</a
-                                >
+                                <a href="javascript:;" class="btn btn-link text-white px-0">Read more</a>
                             </template>
                         </card>
                     </div>
@@ -70,14 +49,11 @@
                                 <img class="img rounded mt-n7" src="img/ill/p7.svg"/>
                             </template>
                             <template slot="body">
-                                <h4 class="display-4 text-white">Focus</h4>
+                                <h4 class="display-4 text-white">九月号</h4>
                                 <p class="lead text-white mt-0">
-                                    Because it's about motivating the doers. Because I’m here to
-                                    follow my dreams and inspire other people.
+                                    九月文章.
                                 </p>
-                                <a href="javascript:;" class="btn btn-link text-white px-0"
-                                >Read more</a
-                                >
+                                <a href="javascript:;" class="btn btn-link text-white px-0">Read more</a>
                             </template>
                         </card>
                     </div>
@@ -86,10 +62,6 @@
             <br/>
             <!-- Related Stories -->
             <Blog></Blog>
-            <br/>
-            <br/>
-            <!-- Latest Blogposts -->
-            <Blog2></Blog2>
             <div class="section team-4 bg-default">
                 <div class="team-2">
                     <div class="container">
@@ -334,110 +306,16 @@
                     </div>
                 </div>
             </div>
-            <div class="title text-center bg-default">
-                <h3 class="text-white mb-0 pb-3">Show us some love</h3>
-            </div>
-            <div class="social-line social-line-big-icons bg-default">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6 mb-md-4 mb-lg-0">
-                            <base-button
-                                    tag="a"
-                                    href="javascript:void(0)"
-                                    class="btn-icon btn-gradient-twitter"
-                                    type=""
-                            >
-                                <i class="fa fa-twitter"></i>
-                                <p class="title">twitter</p>
-                                <p class="subtitle">@creativetim</p>
-                            </base-button>
-                        </div>
-                        <div class="col-lg-3 col-md-6 mb-md-4 mb-lg-0">
-                            <base-button
-                                    tag="a"
-                                    href="javascript:void(0)"
-                                    class="btn-icon btn-gradient-facebook"
-                                    type=""
-                            >
-                                <i class="fa fa-facebook"></i>
-                                <p class="title">facebook</p>
-                                <p class="subtitle">@creativetim</p>
-                            </base-button>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <base-button
-                                    tag="a"
-                                    href="javascript:void(0)"
-                                    class="btn-icon btn-gradient-slack"
-                                    type=""
-                            >
-                                <i class="fa fa-slack"></i>
-                                <p class="title">slack</p>
-                                <p class="subtitle">@creativetim</p>
-                            </base-button>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <base-button
-                                    tag="a"
-                                    href="javascript:void(0)"
-                                    class="btn-icon btn-gradient-instagram"
-                                    type=""
-                            >
-                                <i class="fa fa-instagram"></i>
-                                <p class="title">instagram</p>
-                                <p class="subtitle">@creativetim</p>
-                            </base-button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="subscribe-line bg-default">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-10 mx-auto">
-                            <div class="text-center">
-                                <h4 class="title text-white">Subscribe to our Newsletter</h4>
-                                <p class="description text-white">
-                                    Join our newsletter and get news in your inbox every week! We
-                                    hate spam too, so no worries about this.
-                                </p>
-                            </div>
-                            <div class="card card-raised card-form-horizontal">
-                                <div class="card-body">
-                                    <form method="" action="">
-                                        <div class="row">
-                                            <div class="col-sm-8">
-                                                <base-input
-                                                        placeholder="Your Email..."
-                                                        addonLeftIcon="ni ni-email-83"
-                                                ></base-input>
-                                            </div>
-                                            <div class="col-sm-4">
-                                                <base-button type="primary" class="btn-block"
-                                                >Subscribe
-                                                </base-button
-                                                >
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </template>
 <script>
     import Blog from "./sections/Blogs/Blog3.vue";
-    import Blog2 from "./sections/Blogs/Blog4.vue";
     import BaseDropdown from "@/components/BaseDropdown";
 
     export default {
         components: {
             Blog,
-            Blog2,
             BaseDropdown
         }
     };

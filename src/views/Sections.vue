@@ -27,16 +27,7 @@
     export default {
         name: "sections",
         components: {
-            Headers,
-            Features,
-            Blogs,
-            Teams,
-            Projects,
-            Pricing,
-            Testimonials,
-            Contact,
-            Tables,
-            Accordion
+            Headers, Features, Blogs, Teams, Projects, Pricing, Testimonials, Contact, Tables, Accordion
         }
     };
 </script>

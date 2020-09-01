@@ -2,8 +2,8 @@
     <section class="blogs-3">
         <div class="container">
             <div class="row">
-                <div class="col-lg-10 col-md-8 mx-auto">
-                    <h2 class="title mb-5">Related Stories</h2>
+                <div class="col-lg-12 col-md-12 mx-auto">
+                    <h2 class="title mb-5">相关阅读</h2>
                     <div class="card card-blog card-plain blog-horizontal mb-5">
                         <div class="row">
                             <div class="col-lg-4">
@@ -16,15 +16,10 @@
                             <div class="col-lg-8">
                                 <div class="card-body">
                                     <h3 class="card-title">
-                                        <a href="javascript:;"
-                                        >Rover raised $65 million for pet sitting</a
-                                        >
+                                        <a href="javascript:;">这是一篇文章</a>
                                     </h3>
                                     <p class="card-description">
-                                        Finding temporary housing for your dog should be as easy as
-                                        renting an Airbnb. That’s the idea behind Rover, which
-                                        raised $65 million to expand its pet sitting and dog-walking
-                                        businesses... <a href="javascript:;"> Read More </a>
+                                        这里是文章的内容... <a href="javascript:;"> Read More </a>
                                     </p>
                                     <div class="author">
                                         <img

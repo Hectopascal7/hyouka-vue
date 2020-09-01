@@ -1,15 +1,6 @@
 <template>
-    <div
-            class="card"
-            :class="[
-      { 'card-lift--hover': hover },
-      { shadow: shadow },
-      { 'card-plain': plain },
-      { [`shadow-${shadowSize}`]: shadowSize },
-      { [`bg-gradient-${gradient}`]: gradient },
-      { [`bg-${type}`]: type }
-    ]"
-    >
+    <div class="card"
+         :class="[{ 'card-lift--hover': hover },{ shadow: shadow },{ 'card-plain': plain }, { [`shadow-${shadowSize}`]: shadowSize },{ [`bg-gradient-${gradient}`]: gradient },{ [`bg-${type}`]: type }]">
         <div class="card-image" v-if="$slots.image">
             <slot name="image"></slot>
         </div>

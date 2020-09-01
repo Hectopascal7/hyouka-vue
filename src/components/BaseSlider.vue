@@ -1,16 +1,10 @@
 <template>
     <div class="input-slider-container">
-        <div
-                class="input-slider"
-                ref="slider"
-                :class="[`slider-${type}`]"
-                :disabled="disabled"
-        ></div>
+        <div class="input-slider" ref="slider" :class="[`slider-${type}`]" :disabled="disabled"></div>
     </div>
 </template>
 <script>
     import noUiSlider from "nouislider";
-
     export default {
         name: "base-slider",
         props: {
@@ -65,7 +59,7 @@
                 });
                 const slider = this.$refs.slider.noUiSlider;
                 slider.on("slide", () => {
-                    let value = slider.get();
+                    const value = slider.get();
                     if (value !== this.value) {
                         this.$emit("input", value);
                     }

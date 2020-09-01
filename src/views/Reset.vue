@@ -1,10 +1,7 @@
 <template>
     <div class="wrapper">
         <div class="page-header bg-default">
-            <div
-                    class="page-header-image"
-                    style="background-image: url('img/ill/reset.svg');"
-            ></div>
+            <div class="page-header-image" style="background-image: url('img/ill/reset.svg');"></div>
             <div class="container">
                 <div class="col-lg-5 col-md-8 mx-auto">
                     <div class="card bg-secondary shadow border-0">
@@ -18,11 +15,9 @@
                             </div>
                             <form role="form">
                                 <div class="form-group mb-3">
-                                    <base-input
-                                            alternative
-                                            placeholder="Email"
-                                            addonLeftIcon="ni ni-email-83"
-                                    ></base-input>
+                                    <base-input alternative placeholder="Email"
+                                                addonLeftIcon="ni ni-email-83">
+                                    </base-input>
                                 </div>
                                 <div class="text-center">
                                     <base-button type="primary" class="my-4">Send</base-button>

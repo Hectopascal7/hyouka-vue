@@ -1,39 +1,26 @@
 <template>
     <div class="wrapper">
         <div class="page-header header-filter">
-            <div
-                    class="page-header-image"
-                    style="background-image: url('img/sections/photo-1.jpg');"
-            ></div>
+            <div class="page-header-image" style="background-image: url('img/sections/photo-1.jpg');"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-10 mx-auto text-center">
-                        <h2 class="display-2 text-white">Check our latest post!</h2>
+                        <h2 class="display-2 text-white">关于Java的封装类关于Java的封装类关于Java的封装类</h2>
                     </div>
                 </div>
                 <div class="row">
                     <div class="floating-box bg-default">
                         <div class="box text-center">
-                            <div
-                                    class="icon icon-shape bg-primary icon-xl rounded-circle text-white"
-                            >
+                            <div class="icon icon-shape bg-primary icon-xl rounded-circle text-white">
                                 <i class="ni ni-spaceship"></i>
                             </div>
                         </div>
                         <blockquote class="blockquote text-center mt-4">
-                            <p class="mb-0 text-white">posted 13 Sept 2019</p>
-                            <footer class="blockquote-footer text-white">
-                                Someone famous in
-                                <cite title="Source Title">Source Title</cite>
-                            </footer>
+                            <p class="mb-0 text-white">发布于 2020年9月1日</p>
+                            <p class="mb-0 text-white">橙色薄荷°</p>
                         </blockquote>
                         <h2 class="lead text-white p-5">
-                            As a result of growing greenhouse gas emissions, climate models
-                            predict that our planet will get significantly warmer, that
-                            ecosystems will be changed or destroyed, and that enormous human
-                            and economic costs will be incurred. These scenarios aren’t
-                            guaranteed, but avoiding them will be very hard. We’re trying to
-                            take small steps to mitigate our impact.
+                            这是一篇技术文章。这是一篇技术文章。这是一篇技术文章。这是一篇技术文章。这是一篇技术文章。
                         </h2>
                     </div>
                 </div>
@@ -42,7 +29,7 @@
         <section class="section">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 ml-auto mr-auto">
+                    <div class="col-md-12 ml-auto mr-auto">
                         <h6 class="category">March 1, 2019</h6>
                         <h3 class="title">The Castle Looks Different at Night...</h3>
                         <p>
@@ -81,44 +68,11 @@
                 </div>
             </div>
         </section>
-        <section>
-            <vue-glide
-                    :startAt="0"
-                    :perView="4"
-                    :perTouch="1"
-                    :focutAt="2"
-                    type="carousel"
-            >
-                <vue-glide-slide>
-                    <img src="img/theme/victor-garcia.jpg" height="500" width="450"/>
-                </vue-glide-slide>
-                <vue-glide-slide>
-                    <img src="img/theme/sacha-styles.jpg" height="500" width="450"/>
-                </vue-glide-slide>
-                <vue-glide-slide>
-                    <img src="img/theme/doyoun-seo.jpg" height="500" width="450"/>
-                </vue-glide-slide>
-                <vue-glide-slide>
-                    <img src="img/theme/ayo-ogunseinde.jpg" height="500" width="450"/>
-                </vue-glide-slide>
-                <vue-glide-slide>
-                    <img src="img/theme/sofia-kuniakina.jpg" height="500" width="450"/>
-                </vue-glide-slide>
-                <template slot="control">
-                    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
-                        <i class="ni ni-bold-left"></i>
-                    </button>
-                    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
-                        <i class="ni ni-bold-right"></i>
-                    </button>
-                </template>
-            </vue-glide>
-        </section>
         <section class="section mt-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 mx-auto">
-                        <h3 class="title">Rest of the Story:</h3>
+                    <div class="col-md-12 mx-auto">
+                        <h3 class="title">故事的最后:</h3>
                         <p>
                             We are here to make life better. And now I look and look around
                             and there’s so many Kanyes I've been trying to figure out the bed
@@ -156,10 +110,10 @@
         <section class="section section-blog-info">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 mx-auto">
+                    <div class="col-md-12 mx-auto">
                         <div class="card">
                             <div class="card-header">
-                                <h5 class="h3 mb-0">Activity feed</h5>
+                                <h5 class="h3 mb-0">回复</h5>
                             </div>
                             <div class="card-header d-flex align-items-center">
                                 <div class="d-flex align-items-center">
@@ -167,20 +121,16 @@
                                         <img src="img/faces/team-1.jpg" class="avatar"/>
                                     </a>
                                     <div class="mx-3">
-                                        <a
-                                                href="javascript:;"
-                                                class="text-dark font-weight-600 text-sm"
-                                        >John Snow</a
-                                        >
+                                        <a href="javascript:;" class="text-dark font-weight-600 text-sm">John Snow</a>
                                         <small class="d-block text-muted">3 days ago</small>
                                     </div>
                                 </div>
                                 <div class="text-right ml-auto">
                                     <base-button type="primary" size="sm">
                                         <template slot="icon">
-                      <span class="btn-inner--icon icon-big"
-                      ><i class="ni ni-fat-add"></i
-                      ></span>
+                                            <span class="btn-inner--icon icon-big">
+                                                <i class="ni ni-fat-add"></i>
+                                            </span>
                                         </template>
                                         Follow
                                     </base-button>
@@ -193,11 +143,7 @@
                                     because you’re telling them from the off exactly why they
                                     should hire you.
                                 </p>
-                                <img
-                                        alt="Image placeholder"
-                                        src="img/sections/mohamed.jpg"
-                                        class="img-fluid rounded"
-                                />
+                                <img alt="Image placeholder" src="img/sections/mohamed.jpg" class="img-fluid rounded"/>
                                 <div class="row align-items-center my-3 pb-3 border-bottom">
                                     <div class="col-sm-6">
                                         <div class="icon-actions">
@@ -216,45 +162,21 @@
                                         </div>
                                     </div>
                                     <div class="col-sm-6 d-none d-sm-block">
-                                        <div
-                                                class="d-flex align-items-center justify-content-sm-end"
-                                        >
+                                        <div class="d-flex align-items-center justify-content-sm-end">
                                             <div class="avatar-group">
-                                                <a
-                                                        href="javascript:;"
-                                                        class="avatar avatar-xs rounded-circle"
-                                                        data-toggle="tooltip"
-                                                        data-original-title="Jessica Rowland"
-                                                >
-                                                    <img
-                                                            alt="Image placeholder"
-                                                            src="img/faces/team-1.jpg"
-                                                            class=""
-                                                    />
+                                                <a href="javascript:;" class="avatar avatar-xs rounded-circle"
+                                                   data-toggle="tooltip" data-original-title="Jessica Rowland">
+                                                    <img alt="Image placeholder" src="img/faces/team-1.jpg" class=""/>
                                                 </a>
-                                                <a
-                                                        href="javascript:;"
-                                                        class="avatar avatar-xs rounded-circle"
-                                                        data-toggle="tooltip"
-                                                        data-original-title="Audrey Love"
-                                                >
-                                                    <img
-                                                            alt="Image placeholder"
-                                                            src="img/faces/team-2.jpg"
-                                                            class="rounded-circle"
-                                                    />
+                                                <a href="javascript:;" class="avatar avatar-xs rounded-circle"
+                                                   data-toggle="tooltip" data-original-title="Audrey Love">
+                                                    <img alt="Image placeholder" src="img/faces/team-2.jpg"
+                                                         class="rounded-circle"/>
                                                 </a>
-                                                <a
-                                                        href="javascript:;"
-                                                        class="avatar avatar-xs rounded-circle"
-                                                        data-toggle="tooltip"
-                                                        data-original-title="Michael Lewis"
-                                                >
-                                                    <img
-                                                            alt="Image placeholder"
-                                                            src="img/faces/team-3.jpg"
-                                                            class="rounded-circle"
-                                                    />
+                                                <a href="javascript:;" class="avatar avatar-xs rounded-circle"
+                                                   data-toggle="tooltip" data-original-title="Michael Lewis">
+                                                    <img alt="Image placeholder" src="img/faces/team-3.jpg"
+                                                         class="rounded-circle"/>
                                                 </a>
                                             </div>
                                             <small class="pl-2 font-weight-bold">and 30+ more</small>
@@ -264,11 +186,8 @@
                                 <!-- Comments -->
                                 <div class="mb-1">
                                     <div class="media media-comment">
-                                        <img
-                                                alt="Image placeholder"
-                                                class="media-comment-avatar rounded-circle"
-                                                src="img/faces/team-1.jpg"
-                                        />
+                                        <img alt="Image placeholder" class="media-comment-avatar rounded-circle"
+                                             src="img/faces/team-1.jpg"/>
                                         <div class="media-body">
                                             <div class="media-comment-text">
                                                 <h6 class="h5 mt-0">Michael Lewis</h6>
@@ -291,11 +210,8 @@
                                         </div>
                                     </div>
                                     <div class="media media-comment">
-                                        <img
-                                                alt="Image placeholder"
-                                                class="media-comment-avatar rounded-circle"
-                                                src="img/faces/team-2.jpg"
-                                        />
+                                        <img alt="Image placeholder" class="media-comment-avatar rounded-circle"
+                                             src="img/faces/team-2.jpg"/>
                                         <div class="media-body">
                                             <div class="media-comment-text">
                                                 <h6 class="h5 mt-0">Jessica Stones</h6>
@@ -318,18 +234,13 @@
                                         </div>
                                     </div>
                                     <div class="media align-items-center mt-5">
-                                        <img
-                                                alt="Image placeholder"
-                                                class="avatar avatar-lg rounded-circle mb-4"
-                                                src="img/faces/team-3.jpg"
-                                        />
+                                        <img alt="Image placeholder" class="avatar avatar-lg rounded-circle mb-4"
+                                             src="img/faces/team-3.jpg"/>
                                         <div class="media-body">
                                             <form>
-                        <textarea
-                                class="form-control"
-                                placeholder="Write your comment"
-                                rows="1"
-                        ></textarea>
+                                                <textarea class="form-control" placeholder="Write your comment"
+                                                          rows="1">
+                                                </textarea>
                                             </form>
                                         </div>
                                     </div>

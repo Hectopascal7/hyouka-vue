@@ -1,17 +1,12 @@
 <template>
     <SlideYUpTransition :duration="animationDuration">
-        <div
-                class="modal fade"
-                @click.self="closeModal"
-                :class="[
-        { 'show d-block': show },
-        { 'd-none': !show },
+        <div class="modal fade" @click.self="closeModal" :class="[{ 'show d-block': show },{ 'd-none': !show },
         { 'modal-mini': type === 'mini' }
       ]"
-                v-show="show"
-                tabindex="-1"
-                role="dialog"
-                :aria-hidden="!show"
+             v-show="show"
+             tabindex="-1"
+             role="dialog"
+             :aria-hidden="!show"
         >
             <div
                     class="modal-dialog modal-dialog-centered"

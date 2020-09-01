@@ -1,27 +1,15 @@
 <template>
     <div class="fileinput text-center">
-        <div
-                class="fileinput-new thumbnail"
-                :class="{ 'img-circle': type === 'avatar' }"
-        >
+        <div class="fileinput-new thumbnail" :class="{ 'img-circle': type === 'avatar' }">
             <img :src="image" alt="preview"/>
         </div>
         <div>
-      <span class="btn btn-file" :class="btnClasses">
-        <span class="fileinput-new">{{
-          fileExists ? changeText : selectText
-        }}</span>
-        <input type="hidden" value="" name=""/>
-        <input
-                accept="image/*"
-                @change="handlePreview"
-                type="file"
-                name="..."
-                class="valid"
-                :multiple="false"
-                aria-invalid="false"
-        />
-      </span>
+            <span class="btn btn-file" :class="btnClasses">
+                <span class="fileinput-new">{{ fileExists ? changeText : selectText}}</span>
+                <input type="hidden" value="" name=""/>
+                <input accept="image/*" @change="handlePreview" type="file" name="..." class="valid" :multiple="false"
+                       aria-invalid="false"/>
+            </span>
             <base-button v-if="fileExists" @click="removeFile" round type="danger">
                 <i class="fa fa-times"></i> {{ removeText }}
             </base-button>
@@ -61,8 +49,8 @@
             }
         },
         data() {
-            let avatarPlaceholder = "img/placeholder.jpg";
-            let imgPlaceholder = "img/image_placeholder.jpg";
+            const avatarPlaceholder = "img/placeholder.jpg";
+            const imgPlaceholder = "img/image_placeholder.jpg";
             return {
                 placeholder: this.type === "avatar" ? avatarPlaceholder : imgPlaceholder,
                 imagePreview: null
@@ -78,7 +66,7 @@
         },
         methods: {
             handlePreview(event) {
-                let file = event.target.files[0];
+                const file = event.target.files[0];
                 this.imagePreview = URL.createObjectURL(file);
                 this.$emit("change", file);
             },

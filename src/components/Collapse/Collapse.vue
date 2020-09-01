@@ -1,10 +1,5 @@
 <template>
-    <div
-            id="accordion"
-            role="tablist"
-            aria-multiselectable="true"
-            class="accordion"
-    >
+    <div id="accordion" role="tablist" aria-multiselectable="true" class="accordion">
         <slot></slot>
     </div>
 </template>

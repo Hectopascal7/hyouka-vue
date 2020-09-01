@@ -1,8 +1,5 @@
 <template>
-    <div
-            class="custom-control custom-radio"
-            :class="[inlineClass, { disabled: disabled }]"
-    >
+    <div class="custom-control custom-radio" :class="[inlineClass, { disabled: disabled }]">
         <input
                 :id="cbId"
                 class="custom-control-input"

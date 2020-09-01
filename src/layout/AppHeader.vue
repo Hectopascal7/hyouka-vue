@@ -1,16 +1,10 @@
 <template>
     <header class="header-global">
-        <base-nav
-                class="navbar-main headroom"
-                id="navbar-main"
-                :type="navbarType ? navbarType : ''"
-                effect="dark"
-                expand
-        >
+        <base-nav class="navbar-main headroom" id="navbar-main" :type="navbarType ? navbarType : ''" effect="dark"
+                  expand>
             <router-link slot="brand" class="navbar-brand mr-lg-5" to="/">
                 <img src="img/brand/white.png" alt="logo"/>
             </router-link>
-
             <div class="row" slot="content-header" slot-scope="{ closeMenu }">
                 <div class="col-6 collapse-brand">
                     <a href="javascript:void(0)">
@@ -21,26 +15,16 @@
                     <close-button @click="closeMenu"></close-button>
                 </div>
             </div>
-
             <ul class="navbar-nav navbar-nav-hover align-items-lg-center ml-lg-auto">
                 <base-dropdown class="nav-item" menu-classes="dropdown-menu-xl">
-                    <a
-                            role="button"
-                            slot="title"
-                            href="/elements"
-                            class="nav-link"
-                            data-toggle="dropdown"
-                    >
+                    <a role="button" slot="title" href="/elements" class="nav-link" data-toggle="dropdown">
                         <i class="ni ni-ui-04 d-lg-none"></i>
-                        <span class="nav-link-inner--text">Elements</span>
+                        <span class="nav-link-inner--text">我的主页</span>
                     </a>
                     <router-link to="/landing"></router-link>
-
                     <div class="dropdown-menu-inner">
                         <router-link to="/" class="media d-flex align-items-center">
-                            <div
-                                    class="icon icon-shape bg-gradient-primary rounded-circle text-white"
-                            >
+                            <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
                                 <i class="ni ni-spaceship"></i>
                             </div>
                             <div class="media-body ml-3">
@@ -50,13 +34,8 @@
                                 </p>
                             </div>
                         </router-link>
-                        <router-link
-                                to="/presentation"
-                                class="media d-flex align-items-center"
-                        >
-                            <div
-                                    class="icon icon-shape bg-gradient-warning rounded-circle text-white"
-                            >
+                        <router-link to="/presentation" class="media d-flex align-items-center">
+                            <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
                                 <i class="ni ni-palette"></i>
                             </div>
                             <div class="media-body ml-3">
@@ -69,39 +48,27 @@
                         </router-link>
                     </div>
                     <div class="dropdown-menu-footer">
-                        <a
-                                class="dropdown-item"
-                                href="https://www.creative-tim.com/learning-lab/vue/overview/argon-design-system"
-                        >
+                        <a class="dropdown-item"
+                           href="https://www.creative-tim.com/learning-lab/vue/overview/argon-design-system">
                             <i class="ni ni-atom"></i>
                             Getting Started
                         </a>
-                        <a
-                                class="dropdown-item"
-                                href="https://www.creative-tim.com/learning-lab/vue/colors/argon-design-system"
-                        >
+                        <a class="dropdown-item"
+                           href="https://www.creative-tim.com/learning-lab/vue/colors/argon-design-system">
                             <i class="ni ni-ui-04"></i>
                             Foundation
                         </a>
-                        <a
-                                class="dropdown-item"
-                                href="https://www.creative-tim.com/learning-lab/vue/alerts/argon-design-system"
-                        >
+                        <a class="dropdown-item"
+                           href="https://www.creative-tim.com/learning-lab/vue/alerts/argon-design-system">
                             <i class="ni ni-archive-2"></i>
                             Components
                         </a>
                     </div>
                 </base-dropdown>
                 <base-dropdown class="nav-item">
-                    <a
-                            role="button"
-                            slot="title"
-                            href="#"
-                            class="nav-link"
-                            data-toggle="dropdown"
-                    >
+                    <a role="button" slot="title" href="#" class="nav-link" data-toggle="dropdown">
                         <i class="ni ni-app d-lg-none"></i>
-                        <span class="nav-link-inner--text">Design Blocks</span>
+                        <span class="nav-link-inner--text">技术专栏</span>
                     </a>
                     <router-link to="/sections#headers" class="dropdown-item">
                         <i class="ni ni-album-2 text-info"></i>
@@ -145,15 +112,9 @@
                     </router-link>
                 </base-dropdown>
                 <base-dropdown class="nav-item">
-                    <a
-                            role="button"
-                            slot="title"
-                            href="#"
-                            class="nav-link"
-                            data-toggle="dropdown"
-                    >
+                    <a role="button" slot="title" href="#" class="nav-link" data-toggle="dropdown">
                         <i class="ni ni-single-copy-04 d-lg-none"></i>
-                        <span class="nav-link-inner--text">Examples</span>
+                        <span class="nav-link-inner--text">心情日记</span>
                     </a>
                     <router-link to="/about" class="dropdown-item">
                         <i class="ni ni-tie-bow text-warning"></i>
@@ -201,15 +162,43 @@
                     </router-link>
                 </base-dropdown>
                 <base-dropdown class="nav-item">
-                    <a
-                            role="button"
-                            slot="title"
-                            href="#"
-                            class="nav-link"
-                            data-toggle="dropdown"
-                    >
+                    <a role="button" slot="title" href="#" class="nav-link" data-toggle="dropdown">
                         <i class="ni ni-tablet-button d-lg-none"></i>
-                        <span class="nav-link-inner--text">App Pages</span>
+                        <span class="nav-link-inner--text">百科全书</span>
+                    </a>
+                    <router-link to="/account" class="dropdown-item">
+                        <i class="ni ni-lock-circle-open text-muted"></i>
+                        Account Settings
+                    </router-link>
+                    <router-link to="/login" class="dropdown-item">
+                        <i class="ni ni-tv-2 text-danger"></i>
+                        Login Page
+                    </router-link>
+                    <router-link to="/register" class="dropdown-item">
+                        <i class="ni ni-air-baloon text-pink"></i>
+                        Register Page
+                    </router-link>
+                    <router-link to="/reset" class="dropdown-item">
+                        <i class="ni ni-atom text-info"></i>
+                        Reset Page
+                    </router-link>
+                    <router-link to="/invoice" class="dropdown-item">
+                        <i class="ni ni-bullet-list-67 text-success"></i>
+                        Invoice Page
+                    </router-link>
+                    <router-link to="/checkout" class="dropdown-item">
+                        <i class="ni ni-basket text-orange"></i>
+                        Checkout Page
+                    </router-link>
+                    <router-link to="/chat-page" class="dropdown-item">
+                        <i class="ni ni-chat-round text-primary"></i>
+                        Chat Page
+                    </router-link>
+                </base-dropdown>
+                <base-dropdown class="nav-item">
+                    <a role="button" slot="title" href="#" class="nav-link" data-toggle="dropdown">
+                        <i class="ni ni-tablet-button d-lg-none"></i>
+                        <span class="nav-link-inner--text">友人帐</span>
                     </a>
                     <router-link to="/account" class="dropdown-item">
                         <i class="ni ni-lock-circle-open text-muted"></i>

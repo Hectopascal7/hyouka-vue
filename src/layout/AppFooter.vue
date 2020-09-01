@@ -4,57 +4,37 @@
             <div class="row row-grid align-items-center mb-5">
                 <div class="col-lg-6">
                     <h3 class="text-primary font-weight-light mb-2">
-                        Thank you for supporting us!
+                        感谢关注！
                     </h3>
                     <h4 class="mb-0 font-weight-light">
-                        Let's get in touch on any of these platforms.
+                        今晚去看星星吧。
                     </h4>
                 </div>
                 <div class="col-lg-6 text-lg-center btn-wrapper">
-                    <button
-                            target="_blank"
-                            href="https://twitter.com/creativetim"
-                            rel="nofollow"
+                    <button target="_blank" href="https://twitter.com/creativetim" rel="nofollow"
                             class="btn btn-icon-only btn-twitter rounded-circle"
-                            data-toggle="tooltip"
-                            data-original-title="Follow us"
-                    >
+                            data-toggle="tooltip" data-original-title="Follow us">
                         <span class="btn-inner--icon">
                             <i class="fa fa-twitter"></i>
                         </span>
                     </button>
-                    <button
-                            target="_blank"
-                            href="https://www.facebook.com/CreativeTim/"
-                            rel="nofollow"
-                            class="btn-icon-only rounded-circle btn btn-facebook"
-                            data-toggle="tooltip"
-                            data-original-title="Like us"
-                    >
+                    <button target="_blank" href="https://www.facebook.com/CreativeTim/"
+                            rel="nofollow" class="btn-icon-only rounded-circle btn btn-facebook"
+                            data-toggle="tooltip" data-original-title="Like us">
                         <span class="btn-inner--icon">
                             <i class="fa fa-facebook"></i>
                         </span>
                     </button>
-                    <button
-                            target="_blank"
-                            href="https://dribbble.com/creativetim"
-                            rel="nofollow"
+                    <button target="_blank" href="https://dribbble.com/creativetim" rel="nofollow"
                             class="btn btn-icon-only btn-dribbble rounded-circle"
-                            data-toggle="tooltip"
-                            data-original-title="Follow us"
-                    >
+                            data-toggle="tooltip" data-original-title="Follow us">
                         <span class="btn-inner--icon">
                             <i class="fa fa-dribbble"></i>
                         </span>
                     </button>
-                    <button
-                            target="_blank"
-                            href="https://github.com/creativetimofficial"
-                            rel="nofollow"
-                            class="btn btn-icon-only btn-github rounded-circle"
-                            data-toggle="tooltip"
-                            data-original-title="Star on Github"
-                    >
+                    <button target="_blank" href="https://github.com/creativetimofficial"
+                            rel="nofollow" class="btn btn-icon-only btn-github rounded-circle"
+                            data-toggle="tooltip" data-original-title="Star on Github">
                         <span class="btn-inner--icon">
                             <i class="fa fa-github"></i>
                         </span>
@@ -65,31 +45,20 @@
                 <div class="col-md-6">
                     <div class="copyright">
                         &copy; {{ year }}
-                        <a href="javascript:void();" target="_blank">Creative Tim</a>
+                        <a href="javascript:void()" target="_blank">橙色薄荷°</a>All Rights Reserved.
                     </div>
                 </div>
                 <div class="col-md-6">
                     <ul class="nav nav-footer justify-content-end">
                         <li class="nav-item">
-                            <a href="javascript:void()" class="nav-link" target="_blank"
-                            >Creative Tim
-                            </a
-                            >
+                            <a href="javascript:void()" class="nav-link" target="_blank">
+                                关于Hyouka
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a href="javascript:void()" class="nav-link" target="_blank"
-                            >About Us
-                            </a
-                            >
-                        </li>
-                        <li class="nav-item">
-                            <a href="javascript:void()" class="nav-link" target="_blank"
-                            >Blog
-                            </a
-                            >
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link" target="_blank">License</a>
+                            <a href="javascript:void()" class="nav-link" target="_blank">
+                                关于橙色薄荷°
+                            </a>
                         </li>
                     </ul>
                 </div>

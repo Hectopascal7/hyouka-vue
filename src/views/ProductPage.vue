@@ -1,12 +1,7 @@
 <template>
     <div class="wrapper">
-        <div
-                class="page-header header-filter page-header-small skew-separator skew-mini"
-        >
-            <div
-                    class="page-header-image"
-                    style="background-image: url('img/pages/boxed-water.jpg');"
-            ></div>
+        <div class="page-header header-filter page-header-small skew-separator skew-mini">
+            <div class="page-header-image" style="background-image: url('img/pages/boxed-water.jpg');"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7 col-md-7 mr-auto text-left">
